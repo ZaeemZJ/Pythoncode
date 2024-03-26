@@ -1,0 +1,132 @@
+python
+name = "Python"
+print(name)
+
+message = "I love Python."
+print(message)
+Python
+I love Python.
+message = """
+Never gonna give you up
+Never gonna let you down
+"""
+
+print(message)
+Never gonna give you up
+Never gonna let you down
+
+str1 = "Hello, world!"
+str2 = "I love Swift."
+str3 = "Hello, world!"
+
+print(str1 == str2)
+
+print(str1 == str3)
+False
+True
+greet = "Hello, "
+name = "Jack"
+
+result = greet + name
+print(result)
+Hello, Jack
+greet = 'Hello'
+
+for letter in greet:
+    print(letter)
+H
+e
+l
+l
+o
+print('a' in 'program') 
+print('at' not in 'battle') 
+True
+False
+example = "He said, \"What's there?\""
+
+
+example = 'He said, "What\'s there?"'
+
+print(example)
+He said, "What's there?"
+name = 'Cathy'
+country = 'UK'
+
+print(f'{name} is from {country}')
+Cathy is from UK
+print("welcome to python")
+welcome to python
+txt = "welcome to the python"
+
+x = txt.split()
+
+print(x)
+
+"welcome" in txt
+['welcome', 'to', 'the', 'python']
+True
+text= 'Split this string'
+
+
+print(text.split())
+
+grocery = 'Milk, Chicken, Bread'
+
+
+print(grocery.split(', '))
+
+
+
+print(grocery.split(':'))
+['Split', 'this', 'string']
+['Milk', 'Chicken', 'Bread']
+['Milk, Chicken, Bread']
+grocery = 'Milk#Chicken#Bread#Butter'
+print(grocery.split('#', 1))
+
+print(grocery.split('#', 2))
+
+print(grocery.split('#', 5))
+
+print(grocery.split('#', 0))
+['Milk', 'Chicken#Bread#Butter']
+['Milk', 'Chicken', 'Bread#Butter']
+['Milk', 'Chicken', 'Bread', 'Butter']
+['Milk#Chicken#Bread#Butter']
+cricket_score = 250
+print(type(cricket_score))
+<class 'int'>
+
+#primitive type
+age = 23 #integer class
+weight = 25.2 #float
+name = "ali"
+is_availiable = True
+
+## Age Calculator
+birth_year = 2000
+age = 2024 - birth_year
+print("your age is:", age)
+your age is: 24
+
+## Age Calculator
+birth_year = int(input("ap ki birth year kya hai?"))
+age = 2024 - birth_year
+print("your age is:", age)
+ap ki birth year kya hai?2002
+your age is: 22
+
+age = int(input("what is your age please?"))
+vote_criteria = 18
+eligbility_check = age >=vote_criteria
+print("your age is:", age, "and your eligbility to vote is ", eligbility_check)
+what is your age please?15
+your age is: 15 and your eligbility to vote is  False
+
+age = int(input("what is your age please?"))
+vote_criteria = 18
+eligbility_check = age >=vote_criteria
+print("your age is:", age, "and your eligbility to vote is ", eligbility_check)
+what is your age please?19
+your age is: 19 and your eligbility to vote is  True
